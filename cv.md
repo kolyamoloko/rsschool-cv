@@ -32,6 +32,8 @@
 
 #### Previous work experience: 2 years worked as a chief accountant. Now studying to be a JS dev.
 
+#### Russian: Proficiency
+
 #### English: Pre intermediate
 
 #### German: Starter
