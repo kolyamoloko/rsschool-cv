@@ -1,0 +1,395 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+ul[class],
+ol[class] {
+  padding: 0;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+ul[class],
+ol[class] {
+  list-style: none;
+}
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+article > * + * {
+  margin-top: 1em;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+/*Подключение семейства шрифтов  */
+@font-face {
+  font-family: "roboto";
+  src: url(/fonts/Roboto-Regular.woff), url(/fonts/Roboto-Regular.ttf);
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "roboto";
+  src: url(/fonts/Roboto-Bold.woff), url(/fonts/Roboto-Bold.ttf);
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "roboto";
+  src: url(/fonts/Roboto-Medium.woff), url(/fonts/Roboto-Medium.ttf);
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+html {
+  scroll-behavior: smooth;
+}
+/*fonts  */
+/* fonts */
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  background-color: #c4c8b3;
+  color: black;
+  font-size: 24px;
+  line-height: 1.1;
+}
+a {
+  text-transform: none;
+  text-decoration: none;
+  color: black;
+}
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+h2 {
+  font-weight: 400;
+  font-size: 24px;
+}
+h3 {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 24px;
+}
+h5 {
+  font-weight: bold;
+  font-size: 36px;
+}
+h6 {
+  font-weight: bold;
+  font-size: 72px;
+}
+code {
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+/* list */
+/* list */
+.wrapper {
+  max-width: 1630px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.header-logo-pic {
+  margin-right: 20px;
+}
+.header-logo-link {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  height: 100%;
+}
+.wrapper-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+
+.header-nav {
+  font-size: 18px;
+}
+.header-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header-item {
+  margin-right: 60px;
+}
+.header-item:last-child {
+  margin-right: 0;
+}
+.header-link:hover .header-link:focus .header-link:active {
+  font-weight: bold;
+  border-bottom: solid 1px;
+}
+/* header*/
+.intro {
+  margin-top: 62px;
+  display: flex;
+}
+.junior {
+  background: #ffffff;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.25);
+  max-width: 370px;
+  margin-right: 193px;
+  padding-right: 53px;
+  padding-left: 53px;
+}
+.mikalai {
+  margin: 0 auto;
+  padding-top: 32px;
+  padding-bottom: 20px;
+}
+.junior-cards {
+  text-align: center;
+}
+.card {
+  padding-bottom: 20px;
+}
+.line {
+  width: 112px;
+}
+.juniordev {
+  padding-top: 20px;
+  padding-bottom: 52px;
+}
+.hello {
+  font-weight: bold;
+  font-size: 72px;
+  padding-bottom: 40px;
+}
+.about {
+  font-weight: normal;
+  font-size: 24px;
+}
+.textabout {
+  padding-bottom: 15px;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 110%;
+  margin-left: 34px;
+}
+.aboutmee {
+  display: flex;
+}
+.better {
+  display: flex;
+}
+/*My education*/
+.wrapperbox {
+  display: flex;
+  background-color: white;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.25);
+  justify-content: space-between;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 15px;
+}
+.educati {
+  padding-bottom: 15px;
+  display: flex;
+  flex: wrap;
+  justify-content: space-between;
+}
+/*my technical skills*/
+.educati {
+  padding-right: 20px;
+}
+/* My recent projects*/
+.work {
+  padding-bottom: 15px;
+  margin: auto;
+}
+.js {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+/*EXPERIENCE*/
+.Expert {
+  display: flex;
+}
+/*Languages*/
+
+.langu {
+  display: flex;
+}
+/*Contacts*/
+.Top {
+  margin-top: 100px;
+}
+.Article {
+  margin-bottom: 40px;
+}
+
+.contac {
+  display: flex;
+}
+.bett {
+  padding-right: 50px;
+  padding-left: 10px;
+}
+/*footer*/
+.footer {
+  margin-top: 90px;
+}
+.header-logos {
+  display: flex;
+  justify-content: flex-end;
+}
+.header_burger {
+  display: none;
+}
+
+.wrapper-nav {
+  position: relative;
+  z-index: 2;
+}
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.header:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #c4c8b3;
+}
+@media (max-width: 1550px) {
+  .header_burger {
+    display: block;
+    position: relative;
+    width: 25px;
+    height: 20px;
+  }
+  .header_burger:before,
+  .header_burger:after {
+    content: "";
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0;
+  }
+  .header_burger:before {
+    top: 0;
+  }
+  .header_burger:after {
+    bottom: 0;
+    width: 100%;
+  }
+  .header_burger span {
+    position: absolute;
+    background-color: black;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    top: 10px;
+  }
+}
+@media (max-width: 700px) {
+  .intro {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .wrapperbox {
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .Top {
+    margin-top: 0px;
+  }
+
+  .Article {
+    margin-bottom: 10px;
+  }
+  .junior {
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .header-item {
+    margin-right: 10px;
+  }
+  .wrapper-nav {
+    padding-top: 10px;
+  }
+  .footer {
+    margin-top: 5px;
+  }
+  .work {
+    padding-bottom: 0px;
+  }
+  .educati {
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+  .intro {
+    margin-top: 10px;
+  }
+  .bett {
+    padding-right: 10px;
+    padding-top: 10px;
+  }
+  .videoo {
+    width: 100%;
+  }
+  pre {
+    font-size: 10px;
+  }
+}
+@media (max-width: 400px) {
+  pre {
+    font-size: 8px;
+  }
+}
