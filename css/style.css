@@ -51,7 +51,7 @@ textarea,
 select {
   font: inherit;
 }
-/*Подключение семейства шрифтов  */
+/*fonts  */
 @font-face {
   font-family: "roboto";
   src: url(/fonts/Roboto-Regular.woff), url(/fonts/Roboto-Regular.ttf);
