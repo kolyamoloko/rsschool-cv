@@ -54,14 +54,14 @@ select {
 /*fonts  */
 @font-face {
   font-family: "roboto";
-  src: url(/fonts/Roboto-Regular.woff), url(/fonts/Roboto-Regular.ttf);
+  src: url(../fonts/Roboto-Regular.woff), url(/fonts/Roboto-Regular.ttf);
   font-style: normal;
   font-weight: 400;
   font-display: swap;
 }
 @font-face {
   font-family: "roboto";
-  src: url(/fonts/Roboto-Bold.woff), url(/fonts/Roboto-Bold.ttf);
+  src: url(../fonts/Roboto-Bold.woff), url(/fonts/Roboto-Bold.ttf);
   font-style: normal;
   font-weight: 700;
   font-display: swap;
